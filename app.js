@@ -31,6 +31,6 @@ app.get('/lista', function(req, res) {
   res.render('lista')
 })
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log('obaaaaa ')
 })
