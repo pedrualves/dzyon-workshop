@@ -1,0 +1,29 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "projeto de teste para o workshop",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrualves/dzyon-workshop.git"
+  },
+  "keywords": [
+    "nodejs",
+    "workshop",
+    "dzyon",
+    "javascript"
+  ],
+  "author": "Pedro Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrualves/dzyon-workshop/issues"
+  },
+  "homepage": "https://github.com/pedrualves/dzyon-workshop#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
