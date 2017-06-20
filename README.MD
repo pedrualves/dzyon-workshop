@@ -2,77 +2,75 @@
 
 ## Database NoSql
 
-	1. [mongo](https://www.mongodb.com/)
-	2. https://redis.io/
-	3. https://www.couchbase.com/
-	4. http://couchdb.apache.org/
+[mongo](https://www.mongodb.com/)
+[redis](https://redis.io/)
+[couchbase](https://www.couchbase.com/)
 
 ## Container
 
-	1. https://www.docker.com/
+[docker](https://www.docker.com/)
 
 ## Editores
 
-	1. https://atom.io/
-	2. https://www.sublimetext.com/3
-	3. https://code.visualstudio.com/
-	4. http://brackets.io/
-	5. https://www.jetbrains.com/webstorm/
+[atom](https://atom.io/)
+[sublime](https://www.sublimetext.com/3)
+[visual studio code]https://code.visualstudio.com/
+[brackets](http://brackets.io/)
+[webstorm](https://www.jetbrains.com/webstorm/)
 
 ## NodeJS
 
-	1. https://nodejs.org/en/
-	2. https://www.npmjs.com/
-	3. http://expressjs.com/
+[NodeJs](https://nodejs.org/en/)
+[NPM](https://www.npmjs.com/)
+[ExpressJs](http://expressjs.com/)
 
 ## Front
 
-	1. https://angularjs.org/
-	2. https://facebook.github.io/react/
-	3. https://vuejs.org/
-	4. https://www.polymer-project.org/
-	5. http://knockoutjs.com/
-	6. http://backbonejs.org/
+[AngularJs](https://angularjs.org/)
+[React](https://facebook.github.io/react/)
+[VueJs](https://vuejs.org/)
+[Polymeter](https://www.polymer-project.org/)
+[knockoutjs](http://knockoutjs.com/)
+[backbonejs](http://backbonejs.org/)
 
 ## Design
 
-	1. http://getbootstrap.com/
-	2. http://foundation.zurb.com/
+[bootstrap](http://getbootstrap.com/)
+[foundation](http://foundation.zurb.com/)
 
 ## Mobile
 
-	1. https://ionicframework.com/
-	2. https://facebook.github.io/react-native/
-	3. https://www.nativescript.org/
-	4. https://cordova.apache.org/
-	5. https://phonegap.com/
+[ionic](https://ionicframework.com/)
+[reactNative](https://facebook.github.io/react-native/)
+[nativeScript](https://www.nativescript.org/)
+[cordova](https://cordova.apache.org/)
+[phonegap](https://phonegap.com/)
 
 ## Gerenciador de Pacote
 
-	1. https://bower.io/
-	2. https://yarnpkg.com/en/
-	3. https://webpack.js.org/
+[yarn](https://yarnpkg.com/en/)
+[webpack](https://webpack.js.org/)
 
 ## Automatizadores
 
-	1. http://gulpjs.com/
-	2. https://gruntjs.com/
-	3. https://webpack.js.org/
+[gulpjs](http://gulpjs.com/)
+[gruntjs](https://gruntjs.com/)
+	
 
 ## Git
 
-	1. https://github.com/
-	2. https://bitbucket.org/
-	3. https://about.gitlab.com/
+[GitHub](https://github.com/)
+[BitBucket](https://bitbucket.org/)
+[GitLab](https://about.gitlab.com/)
 
 ## Cloud
 
-	1. https://heroku.com
-	2. https://aws.amazon.com
-	3. https://gsuite.google.com
-	4. https://www.digitalocean.com
-	5. https://www.hostgator.com.br
+[Heroku](https://heroku.com)
+[Amazon AWS](https://aws.amazon.com)
+[Google GSuite](https://gsuite.google.com)
+[DigitaOcean](https://www.digitalocean.com)
+
 
 ## Anexo I
 
-	1. https://github.com/PadawanTeam/Recommended-Workstation
+[Outras Informações](https://github.com/PadawanTeam/Recommended-Workstation)
