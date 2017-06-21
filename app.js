@@ -1,9 +1,13 @@
 const express = require('express'),
-  app = express()
+  app = express(),
+  mongoose = require('mongoose')
 
 app.set('view engine', 'ejs')
 app.set('views', './views')
 app.use('/views', express.static('views/assets'))
+
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workshop')
+mongoose.Promise = global.Promise;
 
 app.get('/', function(req, res) {
   res.render('index')
