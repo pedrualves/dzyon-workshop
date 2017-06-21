@@ -64,7 +64,38 @@ app.post('/registrar', function(req, res) {
       erro
     })
   })
+})
 
+app.get('/listaJSON', function(req, res) {
+  //query de consulta
+  inscritoModel.find({}, function(err, docs) {
+    let erro = ''
+    if (err) {
+      res.status(204).json()
+    }
+    res.status(200).json(docs)
+  })
+})
+
+app.post('/registrarJSON', function(req, res) {
+  let inscrito = new inscritoModel(req.body)
+
+  //query de insercao
+  inscrito.save({}, function(err, doc) {
+    if (err) {
+      res.status(500).json({
+        msg: err
+      })
+    } else {
+      res.status(200).json({
+        msg: 'inserido com sucesso!'
+      })
+    }
+  })
+})
+
+app.use(function(req, res) {
+  res.status(404).send('ops, pagina nao encontrada')
 })
 
 app.listen(process.env.PORT || 3000, function() {
