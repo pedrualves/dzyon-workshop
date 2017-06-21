@@ -27,6 +27,7 @@ app.get('/lista', function(req, res) {
 })
 
 app.get('/listaCarregada', function(req, res) {
+  // TODO: carregar lista do db
   res.status(200).json({
     a: 1,
     b: 2,
@@ -35,7 +36,9 @@ app.get('/listaCarregada', function(req, res) {
 })
 
 app.post('/registrar', function(req, res) {
-  console.log(req.body);
+  // TODO: salvar no db
+  //retornar sucesso
+  //retornar erro
   res.render('formulario')
 })
 
