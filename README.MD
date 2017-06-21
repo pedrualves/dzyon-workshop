@@ -1,3 +1,9 @@
+# NÃO ESQUECER
+
+* git clone https://github.com/pedrualves/dzyon-workshop.git
+* cd dzyon-workshop
+* npm install
+
 # Links legais para o workshop
 
 ## Database NoSql
