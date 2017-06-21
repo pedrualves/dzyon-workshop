@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="/views/bootstrap.min.css">
 </head>
 
-
 <body>
   <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -36,26 +35,12 @@
       <td>Nome</td>
       <td>Email</td>
     </thead>
-    <tr>
-      <td>Abc</td>
-      <td>123</td>
-    </tr>
-    <tr>
-      <td>Abc</td>
-      <td>123</td>
-    </tr>
-    <tr>
-      <td>Abc</td>
-      <td>123</td>
-    </tr>
-    <tr>
-      <td>Abc</td>
-      <td>123</td>
-    </tr>
-    <tr>
-      <td>Abc</td>
-      <td>123</td>
-    </tr>
+    <% docs.forEach(function(doc){ %>
+      <tr>
+        <td><%= doc.nome %></td>
+        <td><%= doc.email %></td>
+      </tr>
+    <% }) %>
   </table>
 
   <script type="text/javascript" src="/views/jquery.min.js"></script>
